@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-25T12:47:17 CEST" name="Suite" finished-at="2022-07-25T12:48:02 CEST" duration-ms="44843">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberOptions.TestRunner@539d019]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-07-25T12:47:17 CEST" name="TestCucumber" finished-at="2022-07-25T12:47:17 CEST" duration-ms="539">
+      <class name="cucumberOptions.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberOptions.TestRunner@539d019]" started-at="2022-07-25T12:47:17 CEST" name="setUpClass" finished-at="2022-07-25T12:47:17 CEST" duration-ms="441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@d2387c8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberOptions.TestRunner@539d019]" started-at="2022-07-25T12:47:17 CEST" name="tearDownClass" finished-at="2022-07-25T12:47:17 CEST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberOptions.TestRunner -->
+    </test> <!-- TestCucumber -->
+    <test started-at="2022-07-25T12:47:17 CEST" name="TestHome" finished-at="2022-07-25T12:48:02 CEST" duration-ms="44842">
+      <class name="Academy.E2EProject.HomePage">
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:Academy.E2EProject.HomePage@30865a90]" started-at="2022-07-25T12:47:17 CEST" name="basePageNavigation" data-provider="getData" finished-at="2022-07-25T12:47:36 CEST" duration-ms="19046" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[private@spotter.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[privatePassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:Academy.E2EProject.HomePage@30865a90]" started-at="2022-07-25T12:47:36 CEST" name="basePageNavigation" data-provider="getData" finished-at="2022-07-25T12:48:02 CEST" duration-ms="25461" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[enterprise@spotter.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[enterprisePassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Academy.E2EProject.HomePage@30865a90]" started-at="2022-07-25T12:48:02 CEST" name="teardown" finished-at="2022-07-25T12:48:02 CEST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.E2EProject.HomePage -->
+    </test> <!-- TestHome -->
+  </suite> <!-- Suite -->
+</testng-results>

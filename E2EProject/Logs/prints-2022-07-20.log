@@ -1,0 +1,6 @@
+17:56:30.604 [TestNG-tests-3] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x32d293f8f19a2805
+17:56:30.771 [TestNG-tests-2] INFO  resources.Base - Driver is initialized
+17:56:30.800 [TestNG-tests-1] INFO  resources.Base - Driver is initialized
+17:56:31.295 [TestNG-tests-2] INFO  resources.Base - Window is maximized
+17:56:31.666 [TestNG-tests-1] INFO  resources.Base - Window is maximized
+17:56:56.104 [TestNG-tests-2] INFO  resources.Base - Successfully validated h2 text

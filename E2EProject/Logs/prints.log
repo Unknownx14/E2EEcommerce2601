@@ -1,0 +1,5 @@
+15:48:21.680 [TestNG-tests-2] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x18d2281d788c40b6
+15:48:42.779 [TestNG-tests-2] INFO  resources.Base - private@spotter.com
+15:48:42.878 [TestNG-tests-2] INFO  resources.Base - privatePassword
+15:49:05.214 [TestNG-tests-2] INFO  resources.Base - enterprise@spotter.com
+15:49:05.315 [TestNG-tests-2] INFO  resources.Base - enterprisePassword
